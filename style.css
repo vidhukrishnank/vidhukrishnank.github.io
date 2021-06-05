@@ -1,0 +1,187 @@
+#navbar {
+  
+  position: fixed;
+  height: 30vh;
+  width: 4vw;
+  background-color: #69359c;
+  right: 2vw;
+  top: 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px black;
+  
+  
+  
+}
+#navbar i {
+  
+  text-align: center;
+  width: 100%;
+  
+  
+}
+#navbar a {
+  font-size: 5.272vh;
+  color: #fdf5e6;
+  padding: 2vh;
+  display: block;
+  text-align: center;
+  
+}
+#navbar a:hover {
+  
+  background-color: #7533cc;
+}
+
+
+#fullpage {
+  
+  display: flex;
+  flex-direction: column;
+  height: 300vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#welcome-section {
+  
+  width: 100vw;
+  height: 100vh;
+  
+   background: url("https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover;
+  text-align: center;
+  
+  text-shadow: 2px 10px 5px black;
+  
+  
+}
+
+#projects {
+  
+  background-color: #6c7a83;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+
+}
+#contact {
+  
+  background-color: #303841;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+h1 {
+  color: yellow;
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  margin-top: 160px;
+}
+#welcome-section p {
+  color: yellow;
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+}
+span {
+  color: yellow;
+ font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+}
+h2 {
+  
+  font-size: 50px;
+  color: yellow;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+#projects p {
+  
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif, serif;
+}
+#project-grid {
+  
+  
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 5%;
+  margin: 7% 5%;
+ 
+  
+}
+#projects a {
+  
+  height: 250px;
+  width: 100%;
+  background-image: linear-gradient(#4776E6, #8e54e9);
+  box-shadow: 2px 2px 10px black;
+}
+#projects p {
+  
+  margin-top: 205px;
+  width: 100%;
+  
+}
+#contact h2 {
+  
+  margin-top: 60px;
+}
+#contact a {
+  
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+}
+#contact .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+hr {
+  color: black;
+  margin-top: 100px;
+}
+#contact p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  
+  
+}
+@media (max-width: 600px) {
+  
+  #navbar {
+    width: 10vw;
+}
+  
+  h1 {
+    
+    font-size: 30px;
+    margin-top: 200px;
+  }
+  #welcome-section p {
+    margin: auto 5px;
+    font-size: 15px;
+    
+  }
+  span {
+    
+    font-size: 30px;
+  }
+  h2 {
+    
+    font-size: 30px;
+  }
+  #projects p {
+    
+    font-size: 15px;
+  }
+  #contact p {
+    
+    font-size: 15px;
+  }
+}
